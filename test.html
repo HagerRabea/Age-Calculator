@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+   
+  <div class=" h-100 over">
+  <div class="age   ">
+    <h2>Age Calculations </h2>
+    <div class="inputs">
+        <div class="day col-2" >
+        <label>Day : </label>
+        <input type="text" id="day">
+        </div>
+        <div class="month col-2" >
+        <label > Month : </label>
+        <input type="text" id="month">
+        </div>
+        <div class="year col-3" >
+        <label>Year :</label>
+        <input type="text" id="year">
+        </div>
+    </div>
+    <div class="w-100 d-flex f-row justify-content-center mt-5 ">
+        <button class="clc-btn  " id="calculate" onclick="ageCal()">calculate</button>
+        
+    </div>
+ 
+    <div class="result mt-5 w-50 m-auto ">
+      <div class="day-res  d-flex f-row justify-content-between ">
+       <span class="year-span  col-6" id="year-res">
+        
+       </span>
+       <p class="col-6 ">Years</p>
+      </div>
+      <div class="month-res  d-flex f-row justify-content-between">
+        <span class="month-span col-6" id="month-res">
+
+        </span>
+        <p class="col-6">Months</p>
+      </div>
+      <div class="year-res  d-flex f-row justify-content-between">
+        <span class="year-span col-6" id="day-res">
+
+        </span>
+        <p class="col-6">Days</p>
+      </div>
+
+    
+    </div>
+    <div class="birthday">
+      Your next birthday will be on : <span class="birth-span" id="birthday"></span>
+    </div>
+  </div>
+    <script src="js/test.js"></script>
+</body>
+</html>
+
